@@ -8,4 +8,8 @@ class TestBus < MiniTest::Test
     @bus = Bus.new("26", "Easter Road")
   end
 
+def test_drive
+  assert_equal("Brum Brum", @bus.drive)
+end
+
 end

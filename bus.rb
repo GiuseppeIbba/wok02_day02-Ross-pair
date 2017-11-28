@@ -5,4 +5,7 @@ class Bus
     @destination = destination
   end
 
+def drive
+  return "Brum Brum"
+end
 end
