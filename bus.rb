@@ -21,7 +21,9 @@ def pick_up(passenger)
 end
 
 def drop_off(passenger)
-  @passengers.shift(passenger) if @passengers != 0
+if @passengers.size > 0
+  then @passengers.shift
+end
 end
 
 end

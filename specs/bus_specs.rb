@@ -32,7 +32,7 @@ end
   end
 
   def test_can_drop_off_passenger
-    @bus.pick_up(@person)
+    @bus.drop_off(@person)
     assert_equal(0, @bus.passengers_aboard())
   end
 
